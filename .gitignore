@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# storybook
+storybook-static
+
+# production
+dist
+.cache/
+.vscode/launch.json
+build/
+
+# misc
+.DS_Store
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env.*
+
+index.js
+register.js
+shared.js
+components/**/*

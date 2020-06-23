@@ -1,0 +1,60 @@
+{
+  "name": "storybook-addon-adobe-xd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn prettier:check && yarn eslint:check",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "export NODE_ENV=production && babel src --out-dir ./",
+    "build-storybook": "build-storybook",
+    "prettier:check": "prettier --check 'src/**/*.js'",
+    "eslint:check": "eslint ./src/**/*.js",
+    "prepublish": "yarn test && yarn build"
+  },
+  "files": [
+    "index.js",
+    "shared.js",
+    "register.js",
+    "components/**/*"
+  ],
+  "author": "Matthew Claffey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code-mattclaffey/storybook-addon-adobe-xd/issues"
+  },
+  "homepage": "https://github.com/code-mattclaffey/storybook-addon-adobe-xd#README.stories.mdx",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@storybook/storybook-deployer": "^2.8.6",
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react-app": "^9.1.2",
+    "eslint": "6.x",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "4.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "2.x",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "storybook-addon-adobe-xd": "^1.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "keywords": [
+    "storybook",
+    "abstract",
+    "addon",
+    "storybook-addon"
+  ]
+}
