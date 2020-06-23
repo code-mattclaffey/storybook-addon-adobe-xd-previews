@@ -1,19 +1,17 @@
-# Storybook Abstract Addon
+# Storybook Adobe XD
 
-> A abstract design reference tool
-
-![Storybook Addon For Abstract](https://raw.githubusercontent.com/code-mattclaffey/storybook-addon-abstract/master/abstract-panel.png)
+> A adobe xd design reference tool
 
 ## Installation
 
 ```
-  yarn add storybook-addon-abstract --dev
+  yarn add storybook-addon-adobe-xd --dev
 ```
 
 addons.js
 
 ```js
-import 'storybook-addon-abstract/register'
+import 'storybook-addon-adobe-xd/register'
 ```
 
 ## Usage
@@ -28,7 +26,7 @@ import { WithAdobePreview } from 'storybook-addon-adobe-xd'
 
 <Preview>
   <Story name="default">
-    <WithAdobePreview previewId="92ca240b-a770-4116-7153-113190e4e932-e4fb">
+    <WithAdobePreview previewId="insert-id-here">
       <h1>Hello World</h1>
     </WithAdobePreview>
   </Story>
@@ -41,7 +39,7 @@ import { WithAdobePreview } from 'storybook-addon-adobe-xd'
 import { WithAdobePreview } from 'storybook-addon-adobe-xd'
 
 export const helloWorld = () => (
-  <WithAdobePreview previewId="92ca240b-a770-4116-7153-113190e4e932-e4fb">
+  <WithAdobePreview previewId="insert-id-here">
     <h1>Hello World</h1>
   </WithAdobePreview>
 )
