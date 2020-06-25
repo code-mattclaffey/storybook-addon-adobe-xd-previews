@@ -10,7 +10,8 @@
     "build-storybook": "build-storybook",
     "prettier:check": "prettier --check 'src/**/*.js'",
     "eslint:check": "eslint ./src/**/*.js",
-    "prepublish": "yarn test && yarn build"
+    "prepublish": "yarn test && yarn build",
+    "deploy": "yarn prepublish && yarn build-storybook"
   },
   "files": [
     "index.js",
