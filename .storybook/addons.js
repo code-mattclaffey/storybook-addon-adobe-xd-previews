@@ -1,1 +1,1 @@
-import '../src/register'
+import 'storybook-addon-adobe-xd/register'
