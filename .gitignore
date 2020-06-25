@@ -24,7 +24,3 @@ yarn-error.log*
 
 .env.*
 
-index.js
-register.js
-shared.js
-components/**/*
