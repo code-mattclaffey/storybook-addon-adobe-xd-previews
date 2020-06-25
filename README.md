@@ -2,6 +2,8 @@
 
 > A adobe xd design reference tool
 
+![Storybook Addon For Adobe XD Previews](https://raw.githubusercontent.com/code-mattclaffey/storybook-addon-adobe-xd-previews/master/adobe-xd-preview.png)
+
 ## Installation
 
 ```

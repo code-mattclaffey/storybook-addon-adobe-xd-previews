@@ -9523,10 +9523,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.11.2.tgz#a298e5e97b21b3ce7419b732540bc7c79cb007db"
   integrity sha512-TQMKs+C6n9idtzLpxluikmDCYiDJrTbbIGn9LFxMg0BVTu+8JZKSlXTWYRpOFKlfKD5HlDWLVpJJyNGZ2e9l1A==
 
-storybook-addon-abstract@^1.1.2:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/storybook-addon-abstract/-/storybook-addon-abstract-1.2.0.tgz#6852c3291807fe6356e4a243674cdaa509eb2192"
-  integrity sha512-CIsobLcPvCeSaKo5gEY+/0wi8qc0Ud3TVkIhGQ0jJ2R40qELVwWiu9XSsMEFgXTt3WxHtVZVF/w2mqU6SPWmHA==
+storybook-addon-adobe-xd@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-adobe-xd/-/storybook-addon-adobe-xd-1.0.0.tgz#76d478e25ef3dbe999a079c56b860ce9689b08ed"
+  integrity sha512-N/4tXmFj008QksKW8vojmQb3RfAdD37gBQMW6nt9tot0947r0FT4T7zwE//hcqifFGdIYvBDLewfu3SCuc/VKA==
   dependencies:
     prop-types "^15.7.2"
 
